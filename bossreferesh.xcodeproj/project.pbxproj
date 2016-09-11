@@ -12,6 +12,7 @@
 		ED7816521D84EC0B006C0342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7816501D84EC0B006C0342 /* Main.storyboard */; };
 		ED7816541D84EC0B006C0342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7816531D84EC0B006C0342 /* Assets.xcassets */; };
 		ED7816571D84EC0B006C0342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7816551D84EC0B006C0342 /* LaunchScreen.storyboard */; };
+		ED78165F1D84EC44006C0342 /* RefreshAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78165E1D84EC44006C0342 /* RefreshAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ED7816531D84EC0B006C0342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED7816561D84EC0B006C0342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED7816581D84EC0B006C0342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED78165E1D84EC44006C0342 /* RefreshAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				ED7816531D84EC0B006C0342 /* Assets.xcassets */,
 				ED7816551D84EC0B006C0342 /* LaunchScreen.storyboard */,
 				ED7816581D84EC0B006C0342 /* Info.plist */,
+				ED78165E1D84EC44006C0342 /* RefreshAnimationView.swift */,
 			);
 			path = bossreferesh;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				ED78164F1D84EC0B006C0342 /* ViewController.swift in Sources */,
 				ED78164D1D84EC0B006C0342 /* AppDelegate.swift in Sources */,
+				ED78165F1D84EC44006C0342 /* RefreshAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
