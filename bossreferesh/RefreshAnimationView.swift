@@ -10,6 +10,9 @@ import UIKit
 
 class RefreshAnimationView: UIView {
     
+    
+    
+    
     var    currentvalue:CGFloat = 0  {
         didSet{
             

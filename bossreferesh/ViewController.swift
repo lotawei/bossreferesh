@@ -61,9 +61,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        
-        
-        
         if scrollView.contentOffset.y < 0  {
             let ar = -scrollView.contentOffset.y
             re.currentvalue = ar/5
